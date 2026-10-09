@@ -1,11 +1,13 @@
 # Лаунчер МИРЭА
 
-Тут exe для винды, исходников здесь нет.
+крч тут лаунчер для винды чтобы можно было скачать сразу на пк без флешки. тут только exe и инструкция, код отдельно
 
-**[Скачать лаунчер](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-gizmo-test-2026-10-09/MireaLauncher-1.0.16-shared-gizmo-candidate.exe)**
+**[скачать exe](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-gizmo-test-2026-10-09/MireaLauncher-1.0.16-shared-gizmo-candidate.exe)**
 
-[Инструкция для Gizmo и описание сборки](https://github.com/necr0psy/mirea-launcher-download/releases/tag/club-gizmo-test-2026-10-09)
+[как поставить и настроить Gizmo](https://github.com/necr0psy/mirea-launcher-download/releases/tag/club-gizmo-test-2026-10-09)
 
-Пока это тестовая сборка для одного ПК в киберзоне. Проверяем вход и завершение сеанса, потом ставим на остальные. Для клуба нужен запуск с `--shared-computer`, а в Gizmo на выход — `--end-shared-session`. Просто скопировать exe на все компьютеры пока мало.
+пока ставим на один пк в киберзоне и проверяем что все работает. самое главное чтобы после выхода из сеанса следующий человек не зашел в чужой аккаунт. если все норм тогда уже на остальные
 
-Подписи Windows пока нет. Если защита ругается, нужен точный текст сообщения.
+для клуба запускать с `--shared-computer`, а на выход из сеанса в Gizmo поставить `--end-shared-session`. просто открыть exe недостаточно чтобы включить клубный режим
+
+подписи Windows пока нет. если антивирус ругается скиньте скрин что именно пишет, отключать его не надо
