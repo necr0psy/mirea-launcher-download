@@ -2,9 +2,9 @@
 
 крч тут лаунчер для винды чтобы можно было скачать сразу на пк без флешки. тут только exe и инструкция, код отдельно
 
-**[скачать exe, версия 1.0.17](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.17/MireaLauncher-1.0.17.exe)**
+**[скачать exe, версия 1.0.18](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.18/MireaLauncher-1.0.18.exe)**
 
-[как поставить и настроить Gizmo](https://github.com/necr0psy/mirea-launcher-download/releases/tag/club-1.0.17)
+[как поставить и настроить Gizmo](https://github.com/necr0psy/mirea-launcher-download/releases/tag/club-1.0.18)
 
 ## что сейчас
 
@@ -22,4 +22,4 @@
 
 подписи Windows пока нет. если антивирус ругается скиньте скрин что именно пишет, отключать его не надо
 
-хеш файла, SHA256: `7350c0faecc691345cd76409291213f0f4c817e7c926bde439ba8791b3693dd3`
+хеш файла, SHA256: `b49cc9d128dcaff25ef031ccdba8c5e764971cd9d5d91d4f9e49a3eed0873fa3`
