@@ -1,20 +1,22 @@
 # Лаунчер МИРЭА
 
-Здесь готовый лаунчер 1.0.21 для Windows, macOS и Linux. Код лежит отдельно.
+Здесь готовый лаунчер 1.0.22 для Windows, macOS и Linux. Код лежит отдельно.
+
+В 1.0.22 исправил ошибку версии Java при запуске старых паков. Переустанавливать Java не нужно.
 
 Добавили каталог Modrinth: в «Моды и оформление» → «Каталог» можно найти и поставить моды, ресурс-паки и шейдеры. Лаунчер подберёт версию и обязательные зависимости. Свои файлы тоже остались; включать и удалять дополнения можно во вкладке «Установлено».
 
-## Скачать 1.0.21
+## Скачать 1.0.22
 
-- [Windows x86_64 — EXE](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.21/MireaLauncher-1.0.21.exe)
-- [macOS, Intel и Apple Silicon — ZIP](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.21/MireaLauncher-1.0.21-macOS.zip)
-- [Kali Rolling / Debian 13 / Ubuntu 24.04+ — DEB](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.21/MireaLauncher-1.0.21-linux.deb)
-- [Arch / свежий Manjaro — пакет pacman](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.21/mirea-launcher-1.0.21-1-x86_64.pkg.tar.zst)
-- [Linux — AppImage без установки](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.21/MireaLauncher-1.0.21-x86_64.AppImage)
-- [Fedora / openSUSE — RPM](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.21/MireaLauncher-1.0.21-x86_64.rpm)
-- [Подпись обновления Windows — EXE.sig](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.21/MireaLauncher-1.0.21.exe.sig)
+- [Windows x86_64 — EXE](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.22/MireaLauncher-1.0.22.exe)
+- [macOS, Intel и Apple Silicon — ZIP](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.22/MireaLauncher-1.0.22-macOS.zip)
+- [Kali Rolling / Debian 13 / Ubuntu 24.04+ — DEB](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.22/MireaLauncher-1.0.22-linux.deb)
+- [Arch / свежий Manjaro — пакет pacman](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.22/mirea-launcher-1.0.22-1-x86_64.pkg.tar.zst)
+- [Linux — AppImage без установки](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.22/MireaLauncher-1.0.22-x86_64.AppImage)
+- [Fedora / openSUSE — RPM](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.22/MireaLauncher-1.0.22-x86_64.rpm)
+- [Подпись обновления Windows — EXE.sig](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.22/MireaLauncher-1.0.22.exe.sig)
 
-[SHA256 всех файлов](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.21/SHA256SUMS.txt) · [Описание выпуска](https://github.com/necr0psy/mirea-launcher-download/releases/tag/club-1.0.21)
+[SHA256 всех файлов](https://github.com/necr0psy/mirea-launcher-download/releases/download/club-1.0.22/SHA256SUMS.txt) · [Описание выпуска](https://github.com/necr0psy/mirea-launcher-download/releases/tag/club-1.0.22)
 
 Все Linux-сборки для x86_64, нужна glibc 2.39 или новее. [Как поставить на Linux](LINUX.md). Обновление Linux пока вручную. Не каждая версия Fedora или openSUSE подходит — сначала проверяем зависимости.
 
@@ -24,7 +26,7 @@
 
 Сначала ставим на один ПК в киберзоне. Главное — проверить, что после выхода из сеанса следующий человек не попадёт в чужой аккаунт. Если всё работает, ставим на остальные.
 
-1. Скачай `MireaLauncher-1.0.21.exe` в любую папку и один раз запусти из cmd: `"C:\путь\MireaLauncher-1.0.21.exe" --shared-computer`. Он сам скопирует себя в `%LOCALAPPDATA%\MireaLauncher\MireaLauncher.exe` и откроется уже оттуда. Скачанный файл после этого не нужен.
+1. Скачай `MireaLauncher-1.0.22.exe` в любую папку и один раз запусти из cmd: `"C:\путь\MireaLauncher-1.0.22.exe" --shared-computer`. Он сам скопирует себя в `%LOCALAPPDATA%\MireaLauncher\MireaLauncher.exe` и откроется уже оттуда. Скачанный файл после этого не нужен.
 2. При установке он сам кладёт ярлык на рабочий стол и в меню Пуск. Эти ярлыки без клубного режима, их надо удалить. Иначе кто-то откроет лаунчер как дома и его вход останется на ПК.
 3. В Gizmo приложение настроить так: файл `C:\Users\ИМЯ\AppData\Local\MireaLauncher\MireaLauncher.exe`, аргументы `--shared-computer`. ИМЯ — пользователь Windows, под которым идёт сеанс. Просто двойной клик по EXE клубный режим не включает.
 4. На выход из сеанса: Client Tasks, Logout, задание Process. Файл тот же, аргументы `--end-shared-session`, рабочая папка `C:\Users\ИМЯ\AppData\Local\MireaLauncher`. Запускать под тем же пользователем Windows, что и лаунчер, иначе команда ничего не найдёт и скажет, что всё хорошо.
@@ -64,7 +66,7 @@ echo %ERRORLEVEL%
 Хеш EXE сверяй с `SHA256SUMS.txt` из этого же выпуска. В cmd:
 
 ```bat
-certutil -hashfile MireaLauncher-1.0.21.exe SHA256
+certutil -hashfile MireaLauncher-1.0.22.exe SHA256
 ```
 
 На настоящем Windows с Gizmo и Linux с графическим окружением эту версию ещё не проверял. Проверка формата пакетов и библиотек не подтверждает вход и запуск Minecraft — сначала пробуем на одном ПК.
